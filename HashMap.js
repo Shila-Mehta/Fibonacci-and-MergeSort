@@ -192,23 +192,23 @@ resize(){
 
 const map = new HashMap();
 
-map.set("name", "Nimra");
-map.set("city", "RahimYarKhan");
+map.set("name", "Lewis");
+map.set("city", "NewYork");
 
-console.log(map.get("name"));       // Nimra
+console.log(map.get("name"));       // Lewis
 console.log(map.has("city"));       // true
 console.log(map.has("country"));    // false
 
-map.set("city", "Lahore");
-console.log(map.get("city"));       // Lahore
+map.set("city", "losAngles");
+console.log(map.get("city"));       // losAngles
 
 map.remove("name");
 console.log(map.get("name"));       // null
 
 console.log(map.length());          // 1
 console.log(map.keys());            // ["city"]
-console.log(map.values());          // ["Lahore"]
-console.log(map.entries());         // [["city", "Lahore"]]
+console.log(map.values());          // ["losAngles"]
+console.log(map.entries());         // [["city", "losAngles"]]
 
 map.clear();
 console.log(map.length());          // 0
